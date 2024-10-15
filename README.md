@@ -5,19 +5,25 @@ To implement and demonstrate pseudorandom number generation using the standard l
 
 ## DESIGN STEPS:
 ### Step 1:
-Understand the concept of pseudorandom number generation (PRNG).
+Get the number of random numbers to generate from the user.
 
 ### Step 2:
-Implement the pseudorandom number generation using a programming language and its standard library functions.
+Get the seed value from the user.
 
 ### Step 3:
-In PRNG, random numbers are generated based on an initial seed value, and the sequence of random numbers follows a deterministic process.
-Many programming languages provide built-in functions for generating pseudorandom numbers, such as random() in Python and rand() in C.
-These numbers are uniformly distributed within a given range and can be used in various applications such as cryptography, simulations, and games.
+Initialize the constants for the Linear Congruential Generator (LCG).
 
-The pseudorandom number generation can be represented as:
-𝑋𝑛+1=(𝑎𝑋𝑛+𝑐)mod 𝑚 
-where 𝑎,𝑐,and 𝑚 are constants and 𝑋𝑛 is the nth number in the sequence.
+### Step 4:
+Generate a random number using the seed and the LCG formula.
+
+### Step 5:
+Repeat the random number generation for the specified count.
+
+### Step 6:
+Print each generated random number.
+
+### Step 7:
+End the program.
 
 ## PROGRAM:
 ```
